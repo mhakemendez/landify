@@ -1,0 +1,1460 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+/* ================ Variables ====================== */
+
+:root {
+    --font: "Inter", sans-serif;
+    --font-color: #18191f;
+    --bg-color: #fff;
+    --purple: #8c30f5;
+    --black: #0b0d17;
+}
+
+/* ================ Variables ====================== */
+
+/* ================ Defaults ====================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ================ Defaults ====================== */
+
+/* ================ Text ====================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+/* ================ Text ====================== */
+
+/* ================ Default ====================== */
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+a:hover {
+    color: var(--purple);
+}
+/* ================ Default ====================== */
+
+/* ================ Body ====================== */
+
+body {
+    background: var(--bg-color);
+    font-family: var(--font);
+    font-size: 1vw;
+}
+
+/* ================ Body ====================== */
+
+/* ================ Main Container Dimensions ====================== */
+
+.main-container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+/* ================ Main Container Dimensions ====================== */
+
+/* ================ Start Navbar ====================== */
+
+.navbar {
+    padding: 0;
+    background: var(--bg-color);
+}
+
+.nav-container {
+    max-width: 1440px;
+    margin: auto;
+    padding: 1.11em 11.46em;
+}
+
+.navbar-brand img {
+    width: 105px;
+    height: auto;
+}
+
+.navbar-toggler {
+    color: var(--purple);
+    border: 2px solid var(--purple);
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 32px;
+}
+
+.nav-item a {
+    padding: 0;
+    color: var(--font-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.nav-item a:hover {
+    color: var(--font-color);
+}
+
+.main-btn {
+    background: var(--purple);
+    border: none;
+    border-radius: 6px;
+    color: var(--bg-color);
+    font-size: 14px;
+}
+
+.buy {
+    padding: 10px 20px;
+}
+
+/* ================ End Navbar ====================== */
+
+/* ================ Start Hero Section ====================== */
+
+.hero-section {
+    background: url(images/Hero\ Background.png) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-container {
+    padding: 11.67em 11.46em 4.03em;
+}
+.hero-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-left {
+    padding-top: 5em;
+}
+
+.hero-heading {
+    max-width: 700px;
+    font-size: 5em;
+    line-height: 136%;
+    font-weight: 800;
+}
+
+.get-started {
+    padding: 12px 32px;
+    margin-top: 3.06em;
+}
+
+.hero-right {
+    padding: 0 15px;
+}
+
+.hero-img-holder img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+/* ================ End Hero Section ====================== */
+
+/* ================ Start Logo Section ====================== */
+
+.logo-container {
+    padding: 1.11em 11.46em;
+}
+
+.Logo-wrapper {
+    border-top: 1px solid #c0ccda;
+    border-bottom: 1px solid #c0ccda;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 4.44em;
+    padding: 1.67em 7.57em;
+}
+
+.logo-img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+/* ================ End Logo Section ====================== */
+
+/* ================ Stat Features Section ====================== */
+
+.feature-container {
+    padding: 4.44em 11.46em;
+}
+
+.features-heading-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3.33em;
+}
+
+.features-heading {
+    font-weight: 800;
+    font-size: 3.33em;
+    line-height: 64px;
+    margin-bottom: 8px;
+}
+
+.features-sub-heading {
+    font-size: 18px;
+    line-height: 32px;
+    max-width: 540px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2.08em;
+    grid-template-rows: repeat(2, auto);
+    row-gap: 4.44em;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features-img {
+    max-width: 100%;
+    width: 32px;
+    height: auto;
+}
+
+.features-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 24px 0 8px;
+}
+
+.features-desc {
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* ================ End Features Section ====================== */
+
+/* ================ Start Works Section ====================== */
+
+.works-container {
+    padding: 5.56em 11.46em;
+}
+
+.works-heading {
+    font-weight: 800;
+    font-size: 3.33em;
+    line-height: 64px;
+    margin-bottom: 48px;
+}
+
+.works-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 7.64em;
+    grid-template-rows: repeat(2, auto);
+    row-gap: 5.56em;
+}
+
+.works {
+    padding-bottom: 24px;
+    border-bottom: 1px solid #f4f5f7;
+}
+
+.works-title {
+    font-weight: 800;
+}
+
+.works-title span {
+    font-weight: normal;
+}
+
+.works-img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin: 1.67em 0;
+}
+
+.works-bottom-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.works-sub-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.know-more {
+    padding: 10px 20px;
+}
+
+/* ================ End Works Section ====================== */
+
+/* ================ Start Stories Section ====================== */
+
+.stories-section {
+    background: #d5fafc;
+}
+
+.stories-container {
+    padding: 4.44em 11.46em 5.56em;
+}
+
+.stories-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.stories-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    padding-top: 3.89em;
+    width: 100%;
+}
+
+.stories-right {
+    width: 100%;
+}
+
+.lg-quote-holder {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.lg-quote-holder img {
+    width: 11em;
+    height: auto;
+}
+
+.stories-header-holder {
+    z-index: 9;
+}
+
+.stories-heading {
+    max-width: 445px;
+    font-weight: 800;
+    font-size: 3.33em;
+    line-height: 64px;
+}
+
+.stories-sub-heading {
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.customer-stories-left {
+    background: var(--bg-color);
+    width: 64.8%;
+    padding: 2.22em;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+}
+
+.stories-logo-holder img {
+    width: 9.03em;
+    height: auto;
+}
+
+.stories {
+    margin-top: 2.22em;
+    margin-bottom: 1.67em;
+
+    position: relative;
+}
+
+.sm-quote-holder {
+    position: absolute;
+}
+
+.sm-quote-holder img {
+    width: 15px;
+    height: 14px;
+}
+
+.para-stories {
+    font-size: 18px;
+    line-height: 32px;
+    max-width: 254px;
+    position: relative;
+    margin-left: 30px;
+    z-index: 9;
+}
+
+.para-air {
+    max-width: 349px;
+}
+
+.customers-holder {
+    padding-left: 2.08em;
+}
+
+.customer {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.customer-position {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #969bab;
+}
+
+.stories-right {
+    padding-top: 7.22em;
+}
+
+.air-bnb {
+    width: 82.4%;
+    margin-bottom: 32px;
+}
+.customer-stories-right {
+    background: var(--bg-color);
+    padding: 2.22em;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+}
+
+.book {
+    width: 64.81%;
+}
+
+/* ================ End Stories Section ====================== */
+
+/* ================ Start Achievements Section ====================== */
+
+.achievements-container {
+    padding: 5.56em 11.46em;
+}
+
+.achievements-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.achievements-heading {
+    max-width: 540px;
+    font-weight: 800;
+    font-size: 3.33em;
+    line-height: 64px;
+}
+
+.achievements-sub-heading {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.achievements-right {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+    grid-template-rows: repeat(2, auto);
+    row-gap: 40px;
+}
+
+.achievements {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.ach-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.ach-title {
+    font-weight: bold;
+    font-size: 1.94em;
+    line-height: 40px;
+}
+
+.ach-sub-title {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* ================ End Achievements Section ====================== */
+
+/* ================ Start Headline Section ====================== */
+
+.heading-container {
+    padding: 4.44em 11.46em;
+}
+
+.heading-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.heading-left,
+.heading-right {
+    width: 50%;
+}
+
+.heading-right {
+    padding: 0 3.33em;
+}
+
+.heading-left {
+    padding: 3.89em 6.25em 0;
+    display: flex;
+    justify-content: center;
+    background: #f1e4ff;
+    border-radius: 8px;
+}
+
+.heading-img-holder img {
+    width: 100%;
+    height: auto;
+}
+
+.headline-heading {
+    font-weight: 800;
+    font-size: 2.78em;
+    line-height: 54px;
+}
+
+.headline-desc {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 2.22em 0;
+}
+
+.get-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8c30f5;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    width: 24px;
+    height: auto;
+    margin-left: 8px;
+}
+
+/* ================ End Headline Section ====================== */
+
+/* ================ Start Trends Section ====================== */
+
+.trends-container {
+    padding: 4.44em 11.46em;
+}
+
+.trends-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 3.33em;
+}
+
+.trends-title,
+.trends-para {
+    width: 50%;
+}
+
+.trends-title {
+    font-weight: 800;
+    font-size: 3.33em;
+    line-height: 54px;
+}
+
+.trends-para {
+    font-size: 18px;
+    line-height: 32px;
+    max-width: 540px;
+}
+
+/* ================ End Trends Section ====================== */
+
+/* ================ Start Waitlist Section ====================== */
+
+.waitlist-section {
+    background: var(--purple);
+}
+
+.waitlist-container {
+    padding: 4.44em 11.46em;
+}
+
+.waitlist-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8.33em;
+    padding: 3.33em 0;
+}
+
+.waitlist-left img {
+    width: 12.15em;
+    height: auto;
+}
+
+.waitlist-title {
+    font-weight: 800;
+    font-size: 3.33em;
+    line-height: 54px;
+    color: var(--bg-color);
+    max-width: 445px;
+}
+
+.waitlist-form {
+    margin-top: 2.22em;
+}
+
+.waitlist-input {
+    background: #f4f5f7;
+    border-radius: 5px 0px 0px 5px;
+    padding: 14px 16px;
+    border: none;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.waitlist-btn {
+    background: #18191f;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    color: var(--bg-color);
+    padding: 14px 24px;
+    margin-left: -4px;
+    font-size: 14px;
+}
+
+/* ================ End Waitlist Section ====================== */
+
+/* ================ Start Footer Section ====================== */
+
+.footer-section {
+    background: var(--black);
+}
+
+.footer-container {
+    padding: 3.89em 11.46em;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links {
+    color: var(--bg-color);
+    margin-right: 24px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.footer-logo {
+    width: 32px;
+    height: auto;
+    margin-bottom: 1.67em;
+}
+
+.links-holder {
+    margin: 12px 0 24px;
+}
+
+.copyright-text {
+    font-size: 14px;
+    line-height: 24px;
+    color: #d9dbe1;
+}
+
+.get-app-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #d9dbe1;
+}
+
+.store-btn {
+    width: 133px;
+    height: auto;
+    margin-top: 16px;
+}
+
+/* ================ End Footer Section ====================== */
+
+/* ********************************************** Start About Page *********************************************** */
+
+/* ================ Start About Hero Section ====================== */
+
+.about-hero-container {
+    padding: 13.54em 11.46em 4.44em;
+}
+
+.about-hero-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 38px;
+}
+
+.about-hero-left,
+.about-hero-right {
+    width: 50%;
+}
+
+.about-hero-right {
+    padding-right: 0.56em;
+}
+
+.about-hero-heading {
+    font-weight: 800;
+    font-size: 5em;
+    line-height: 98px;
+}
+
+.about-hero-para {
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 1.11em;
+}
+
+/* ================ End About Hero Section ====================== */
+
+/* ================ Start About Values Section ====================== */
+
+.values-container {
+    padding: 4.44em 11.46em;
+}
+
+.values-heading {
+    font-weight: 800;
+    font-size: 3.33em;
+    line-height: 64px;
+    text-align: center;
+}
+
+.values-bottom {
+    margin-top: 2.78em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2.08em;
+    position: relative;
+}
+
+.values-dashed {
+    width: 80%;
+    border: 2px dashed #d6b1ff;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.values {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.11em 1.67em;
+    text-align: center;
+}
+
+.values-icon-holder {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f4f5f7;
+    position: relative;
+    z-index: 9;
+}
+
+.values-icon {
+    width: 24px;
+    height: auto;
+}
+
+.values-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 16px 0 4px;
+}
+
+.values-sub-title {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* ================ End About Values Section ====================== */
+
+/* ================ Start About Headline Section ====================== */
+
+.headline-section {
+    background: #f9fafc;
+    background: url(images/headline-bg.png) left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.headline-container {
+    padding-top: 4.44em;
+}
+
+.headline-about {
+    gap: 0;
+}
+
+.about-heading-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 0 13.75em;
+}
+
+.about-heading-right {
+    width: 50%;
+    padding-left: 3.33em;
+    padding-right: 11.46em;
+}
+
+.about-headline-desc {
+    max-width: 444px;
+}
+
+/* ================ End About Headline Section ====================== */
+
+/* ================ Start About Blog Section ====================== */
+
+.blog-section {
+    background: #f1e4ff;
+}
+
+.blog-container {
+    padding: 4.44em 11.46em;
+    position: relative;
+}
+
+.bg-blog-quote-holder {
+    position: absolute;
+    right: 48px;
+    top: 48px;
+}
+
+.blog-wrapper {
+    position: relative;
+    z-index: 9;
+}
+
+.blog-quote {
+    width: 24.86em;
+    height: auto;
+}
+
+.blog-title {
+    font-weight: 800;
+    font-size: 3.33em;
+    line-height: 64px;
+}
+
+.blog-sub-title {
+    max-width: 540px;
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 8px;
+    margin-bottom: 3.89em;
+}
+
+.blog-post {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+.blogger-name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.blog-desc {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* ================ End About Blog Section ====================== */
+
+/* ********************************************** End About Page *********************************************** */
+
+/* ********************************************** Start Contact Page *********************************************** */
+
+/* ================ Start Contact Section ====================== */
+
+.contact-section {
+    background: #c0dae5;
+}
+
+.contact-container {
+    padding: 14.1em 11.46em;
+}
+
+.contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 8.68em;
+}
+
+.contact-left {
+    padding-top: 24px;
+}
+
+.contact-input {
+    width: 100%;
+    background: #ffffff;
+    opacity: 0.4;
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.name-email {
+    padding: 16px 26px;
+}
+
+.message {
+    padding: 16px 26px 0;
+    max-width: 100%;
+    height: 112px;
+    max-height: 112px;
+    min-height: 112px;
+}
+
+.contact-btn {
+    width: 100%;
+    background: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+    padding: 16px 0;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 8px;
+}
+
+/* ================ End Contact Section ====================== */
+
+/* ********************************************** End Contact Page *********************************************** */
+
+/* ================ Start Media Query ====================== */
+
+@media only screen and (min-width: 1440px) {
+    body {
+        font-size: 13px;
+    }
+}
+
+/* **************************** Start Meadia Screen 991px ************************************* */
+
+@media only screen and (max-width: 991px) {
+    /* ================ Navbar ====================== */
+
+    .navbar-nav {
+        align-items: flex-start;
+    }
+
+    .nav-item {
+        padding-top: 20px;
+        margin-left: 0;
+    }
+
+    /* ================ Navbar ====================== */
+
+    /* ================ Hero ====================== */
+
+    .hero-wrapper {
+        flex-direction: column;
+    }
+
+    .hero-left {
+        margin-bottom: 2.22em;
+        text-align: center;
+        margin-bottom: 3em;
+    }
+
+    /* ================ Hero ====================== */
+
+    /* ================ Features ====================== */
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* ================ Features ====================== */
+
+    /* ================ Works ====================== */
+    .works-grid {
+        column-gap: 4.64em;
+    }
+    /* ================ Works ====================== */
+
+    /* ================ Stories ====================== */
+
+    .customer-stories-left {
+        width: 100%;
+    }
+    .customer-stories-right {
+        width: 100%;
+    }
+    /* ================ Stories ====================== */
+
+    /* **************************** End Home Page ************************************* */
+
+    /* **************************** Start About Page ************************************* */
+
+    .about-hero-heading {
+        line-height: 110%;
+    }
+
+    /* **************************** End About Page ************************************* */
+}
+
+/* **************************** End Meadia Screen 991px ************************************* */
+
+/* **************************** Start Meadia Screen 567px ************************************* */
+
+@media only screen and (max-width: 767px) {
+    /* **************************** Start Home Page ************************************* */
+
+    .hero-heading {
+        font-size: 48px;
+    }
+
+    .Logo-wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20em;
+        row-gap: 5em;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .features-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .features-heading {
+        font-size: 32px;
+    }
+
+    .features-sub-heading {
+        text-align: center;
+    }
+
+    .works-heading {
+        font-size: 32px;
+    }
+
+    .works-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .stories-wrapper {
+        flex-direction: column;
+    }
+
+    .stories-left {
+        align-items: center;
+    }
+
+    .stories-heading {
+        font-size: 32px;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .stories-sub-heading {
+        text-align: center;
+    }
+
+    .para-stories {
+        max-width: none;
+    }
+
+    .stories-right {
+        padding-top: 0.7em;
+    }
+
+    .achievements-wrapper {
+        flex-direction: column;
+    }
+
+    .achievements-heading {
+        text-align: center;
+        max-width: 100%;
+        font-size: 32px;
+    }
+
+    .achievements-sub-heading {
+        text-align: center;
+    }
+
+    .achievements-right {
+        width: 100%;
+        margin-top: 4em;
+    }
+
+    .achievements {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .heading-wrapper {
+        flex-direction: column;
+    }
+
+    .heading-left,
+    .heading-right {
+        width: 100%;
+    }
+
+    .heading-right {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .headline-heading {
+        font-size: 32px;
+    }
+
+    .trends-top {
+        flex-direction: column;
+    }
+
+    .trends-title,
+    .trends-para {
+        width: 100%;
+    }
+
+    .trends-title {
+        font-size: 32px;
+    }
+
+    .trends-para {
+        max-width: 100%;
+    }
+
+    .waitlist-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .waitlist-left img {
+        width: 100%;
+    }
+
+    .waitlist-title {
+        max-width: 100%;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .waitlist-form {
+        display: flex;
+    }
+
+    .waitlist-input {
+        width: 70%;
+    }
+
+    .waitlist-btn {
+        width: 30%;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        margin: 0;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
+    }
+
+    .footer-right {
+        margin-top: 3em;
+    }
+
+    /* **************************** End Home Page ************************************* */
+
+    /* **************************** Start About Page ************************************* */
+
+    /* Font Size Section Title */
+
+    .about-hero-heading {
+        font-size: 48px;
+    }
+
+    .values-heading,
+    .blog-title {
+        font-size: 32px;
+    }
+
+    /* Font Size Section Title */
+
+    .about-hero-wrapper {
+        flex-direction: column;
+    }
+
+    .about-hero-left,
+    .about-hero-right {
+        width: 100%;
+    }
+
+    .values-dashed {
+        display: none;
+    }
+
+    .values-bottom {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 2em;
+    }
+
+    .values {
+        padding: 0;
+    }
+
+    .about-heading-left,
+    .about-heading-right {
+        width: 100%;
+    }
+
+    .about-heading-right {
+        margin-top: 16px;
+        padding-left: 11.46em;
+    }
+
+    .about-headline-desc {
+        max-width: 100%;
+    }
+
+    .blog-post {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 3em;
+    }
+
+    .blogger-name {
+        font-size: 20px;
+    }
+
+    /* **************************** End About Page ************************************* */
+
+    /* **************************** Start Contact Page ************************************* */
+
+    .contact-wrapper {
+        flex-direction: column;
+    }
+
+    /* **************************** End contact Page ************************************* */
+}
+
+/* **************************** End Meadia Screen 767px ************************************* */
+
+/* **************************** Start Meadia Screen 567px ************************************* */
+
+@media only screen and (max-width: 567px) {
+    /* **************************** Start Home Page ************************************* */
+
+    /* Font Size Section Title */
+
+    .features-heading,
+    .works-heading,
+    .stories-heading,
+    .achievements-heading,
+    .headline-heading,
+    .trends-title,
+    .waitlist-title {
+        font-size: 28px;
+        line-height: 140%;
+        text-align: center;
+    }
+
+    /* Font Size Section Title */
+
+    .hero-heading {
+        font-size: 40px;
+    }
+
+    .Logo-wrapper {
+        column-gap: 10em;
+    }
+
+    .features-title {
+        font-size: 20px;
+    }
+
+    .headline-desc,
+    .trends-para {
+        text-align: center;
+    }
+
+    /* **************************** End Home Page ************************************* */
+
+    /* **************************** start About Page ************************************* */
+
+    /* Font Size Section Title */
+
+    .about-hero-heading {
+        font-size: 40px;
+    }
+
+    .values-heading,
+    .blog-title {
+        font-size: 28px;
+    }
+
+    /* Font Size Section Title */
+
+    /* **************************** End About Page ************************************* */
+}
+
+/* **************************** End Meadia Screen 567px ************************************* */
+
+/* **************************** Start Meadia Screen 479px ************************************* */
+
+@media only screen and (max-width: 479px) {
+    /* **************************** Start Home Page ************************************* */
+
+    /* Font Size Section Title */
+
+    .features-heading,
+    .works-heading,
+    .stories-heading,
+    .achievements-heading,
+    .headline-heading,
+    .trends-title,
+    .waitlist-title {
+        font-size: 22px;
+        line-height: 140%;
+    }
+
+    /* Font Size Section Title */
+
+    .hero-heading {
+        font-size: 24px;
+    }
+
+    .features-title {
+        font-size: 18px;
+    }
+
+    .works-title {
+        text-align: center;
+    }
+
+    .works-bottom-box {
+        flex-direction: column;
+    }
+
+    .know-more {
+        margin-top: 12px;
+    }
+
+    .get-link {
+        justify-content: center;
+    }
+
+    /* **************************** End Home Page ************************************* */
+
+    /* **************************** Start About Page ************************************* */
+
+    /* Font Size Section Title */
+
+    .about-hero-heading {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .about-hero-para {
+        font-size: 14px;
+        line-height: 140%;
+        text-align: center;
+    }
+
+    .values-heading,
+    .blog-title {
+        font-size: 22px;
+        line-height: 140%;
+        text-align: center;
+    }
+
+    /* Font Size Section Title */
+
+    .values-bottom {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 5em;
+    }
+
+    .blog-post {
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+
+    .blog-sub-title {
+        text-align: center;
+    }
+
+    .blogger-name {
+        font-size: 18px;
+        line-height: 140%;
+    }
+
+    /* **************************** End About Page ************************************* */
+}
+
+/* **************************** End Meadia Screen 479px ************************************* */
+
+/* ================ End Media Query ====================== */
